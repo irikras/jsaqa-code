@@ -15,14 +15,14 @@ describe("Books names test suit", () => {
     ]);
   });
   it("Same books names should not be sorted in ascending order", () => {
-		expect(
-			sorting.sortByName([
-				"Властелин Колец",
-				"Властелин Колец",				
-			]),
-		).toEqual([
-			"Властелин Колец",
-			"Властелин Колец",			
-		]);
-	});
+    expect(
+      sorting.sortByName([
+        "Властелин Колец",
+        "Властелин Колец",        
+      ])
+    ).toEqual([
+      "Властелин Колец",
+      "Властелин Колец",      
+    ]);
+  });
 });
